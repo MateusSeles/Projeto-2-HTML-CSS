@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+#return {
+    color: rgb(255, 0, 0);
+}
+
+h1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0),white,rgb(188, 113, 113));
+}
+
+body {
+    background-image:
+    url(../../../exercicios/exercicio22/imagens/imgex022/wallpaper006.jpg);
+    box-shadow: 3px 2px 2px 1px rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+a {
+    color: blue;
+}
+
+li {
+    font-size: large;
+    color: red;
+}
+
+strong {
+    background-image: linear-gradient(rgb(230, 245, 230), rgb(136, 191, 197))
+}
+
