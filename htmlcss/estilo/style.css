@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(16, 16, 16);
+    background-color: rgb(69, 66, 66);
     padding: 15px;
 }
 
@@ -45,7 +45,7 @@ abbr {
 /*--- pagina principal - floresta */
 
 section#principal {   
-    color: rgb(7, 7, 7);
+    color: rgb(221, 235, 213);
     background-attachment: fixed;
     width: auto;  
     height: 800px;
@@ -80,8 +80,6 @@ h1 {
 /*----------------------------------------------pagina 2-----------------------------------------------*/
 /*---quem sou eu */
 
-body > section > 
-
 section > picture > img {
     width: 80%;
     max-width: 1500px;
@@ -101,6 +99,7 @@ section > picture > img {
 
 section#pagina2 {
     background-color: rgb(0, 0, 0);
+    padding-top: 20px;
 }
 
 h2 {
@@ -111,16 +110,38 @@ h2 {
     text-align: center;
 }
 
-#quemsoueu {
-    background-color: rgb(172, 102, 127);
-    color: rgb(242, 238, 238);
+#quemsoueu { 
+    color: rgb(255, 255, 255);
     font-family: var(--fonte2);
     font-weight: lighter;
     font-size: x-large;
     padding: 20px;
     text-indent: 35px;
     text-align: justify;
+    background-size: cover;
+} 
+
+*/
+p#quemsoueu {   /* >> dentro do corpo */
+    background-attachment: fixed;
+    width: auto;  
+    height: 800px;
+    max-width: 1800px;
+
 }
+
+#intro { /* >> o corpo */
+    color:black;
+    background-image: url(../imagens/marpreto.jpeg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    padding-top: 20px;
+}
+
+
 /*-------------------------------------------pagina 3----------------------------------------------------*/
 /*----Meus Projetos----*/
 
