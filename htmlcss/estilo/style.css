@@ -40,9 +40,10 @@ abbr {
     font-weight: 500;
 }
 
-/* -------------------------------------------------- fim do header ---------------------------------------- */
-/*--------------------------------------------------pagina 1-------------------------------------------------*/
+/* -------------------------------------------- fim do header ---------------------------------------- */
+/*----------------------------------------------pagina 1-------------------------------------------------*/
 /*--- pagina principal - floresta */
+
 section#principal {   
     color: rgb(7, 7, 7);
     background-attachment: fixed;
@@ -78,9 +79,11 @@ h1 {
 
 /*----------------------------------------------pagina 2-----------------------------------------------*/
 /*---quem sou eu */
-body img {
+
+body > section > 
+
+section > picture > img {
     width: 80%;
-    min-width: 200px;
     max-width: 1500px;
     display: block;
     padding: 40px;
@@ -88,12 +91,12 @@ body img {
     margin-right: auto;        
 }
 
-#fotoperfil {
-    
+#fotoperfil {   
     width: 320px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 section#pagina2 {
@@ -103,13 +106,13 @@ section#pagina2 {
 h2 {
     color: white;
     font-family: var(--fonte3);
-    text-decoration: underline;
     padding: 30px;
     font-size: 2.3em;
     text-align: center;
 }
 
 #quemsoueu {
+    background-color: rgb(172, 102, 127);
     color: rgb(242, 238, 238);
     font-family: var(--fonte2);
     font-weight: lighter;
@@ -121,18 +124,43 @@ h2 {
 /*-------------------------------------------pagina 3----------------------------------------------------*/
 /*----Meus Projetos----*/
 
-section#pagina3 {
-    background-color: pink;
-    width: 722px;
-    height: 900px;
+section#pagina2 {   
+    color: rgb(7, 7, 7);
+    background-attachment: fixed;
+    width: auto;  
+    height: 800px;
+    max-width: 1800px;
+
 }
 
 section.img03 {
-    background-image: url(../imagens/forest.jpeg.jpeg);
+    background-image: url(../imagens/ideia.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-attachment: no-scroll;
+    background-size: cover;
+    height: 800px;
 }
+
+
+/*section#pagina3 {
+    display: block;    
+    background-attachment: fixed;
+    height: 800px;
+    max-width: 1800px;
+    width: 100%;
+    margin-right: auto;
+}
+
+section.img03 {
+    background-image: url(../imagens/floresta.jpeg);
+    background-repeat: no-repeat;
+
+}*/
+
+
+
+
+/*----------------------------------------pagina 4------------------------------------------------------*/
 
 footer {
     background-color: black;
