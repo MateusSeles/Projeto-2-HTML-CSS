@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: rgb(69, 66, 66);
+    background-color: rgb(0, 0, 0);
     padding: 15px;
 }
 
@@ -110,7 +110,7 @@ h2 {
     color: white;
     font-family: var(--fonte3);
     padding: 30px;
-    font-size: 2.3em;
+    font-size: 2.9em;
     text-align: center;
 }
 
@@ -168,6 +168,11 @@ section.img03 {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#projetos {
+    font-size: 2.9em;
+    font-family: var(--fonte3);
 }
 
 div {
@@ -262,45 +267,83 @@ section#pagina04 {
     color: rgb(221, 235, 213);
     background-attachment: fixed;
     width: auto;  
-    height: 800px;
+    height: 900px;
     padding: 20px;
     max-width: 1800px;
 
 }
 
 section.img04 {
-    background-image: url(../imagens/praia.jpeg);
+    background-image: url(../imagens/nuvens.webp);
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center ;
     background-attachment: fixed;
-    background-attachment: no-scroll;
+    padding-top: 20px;
+}
+
+#habilidades {
+    color: black;
+    font-weight: 800;
+    font-size: 2.9em;
 }
 
 
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 1.8em;
+}
 
+div#d1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: var(--fonte2);
+    font-size: 1.7em;
+    height: 80px;
+    width: 130px;
+    margin: 20px;  
+    border-radius: 50%;
+}
+
+#d1 {
+    display: inline-block;
+    background-position: center;
+}
+
+section#div1 {
+    display: inline-block;
+    text-align: center;
+}
+
+div#d2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 223, 223);
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: var(--fonte2);
+    font-size: 1.7em;
+    height: 80px;
+    width: 130px;
+    margin: 20px;  
+    border-radius: 50%;
+}
 
 /*-------------------------------------------Footer----------------------------------*/
 
-
-
-
-
 footer {
-    background-color: black;
-    text-align: center;
-    
+    background-color: rgb(0, 0, 0);
+    text-align: center;  
 }
 
 footer > p {
     color: white;
-    padding: 15px;
     font-size: larger;
 }
 
 footer > p > a {
     color: blue;
-}
-
-aside > p {
-    padding: 20px;
 }
