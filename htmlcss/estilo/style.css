@@ -152,55 +152,138 @@ p#quemsoueu {   /* >> dentro do corpo */
 
 section#pagina3 {   
     padding: 50px;
-    background-color: pink;
+    background-color: black;
     color: rgb(7, 7, 7);
     background-attachment: fixed;
     width: auto;  
-    height: auto;
+    height: 100%;
     max-width: 1800px;
 
 }
 
 section.img03 {
-    background-color: blueviolet;
-    padding: 50px;
+    background-color: black;
     background-image: url(../imagens/forest.jpeg.jpeg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 900px;
 }
 
 div {
+    display: inline-block;
+    background-position: center;
     font-family: var(--fonte3);
-    font-size: 1.7em;
-    color: white;
-    width: 300px;
-    height: 100px;
-    border: solid;
-    margin: 20px;
+    height: 80px;
+    width: 190px;
+    border: 3px solid rgb(1, 1, 1);
+    margin: 88px;
+    margin-top: 20px;
+    padding-top: 50px;
 }
 
-#projetos {
-    display: block;
-    background-position: center;
-    max-width: 450px;
-    min-width: 300px;
+div > a {
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+section#divs {
     text-align: center;
 }
 
-iframe {
-    padding: 20px;
-    width: 350px;
-    max-width: 350px;
-    height: 40vh;
-    background-size: cover;
+#divlogin:hover { /*--------- projeto 1 --------*/
+    background-image: url(../imagens/fundologuin.png);
+    background-size: contain;
 
 }
 
+.divlogin > a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+#divcordel:hover {  /*------- projeto 2 ---------*/
+    background-image:url(../imagens/fundocordel1.png);
+    background-size: cover;
+}
+
+#divcordel > a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+#divredes:hover {
+    background-image: url(../imagens/fundo4.png);
+    background-size: cover;
+}
+
+#divredes > a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+#divpython:hover {
+    background-image: url(../imagens/fundopy.png);
+    background-size: cover;
+}
+
+#divpython > a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+#divproximo:hover {
+    background-image: url(../imagens/embreve1.png);
+    background-size: cover;
+}
+
+#divproximo > a:hover {
+    color: black;
+    font-weight: 800;
+}
+
+#divbreve:hover {
+    background-image: url(../imagens/breve5.png);
+    background-size: cover;
+}
+
+#divbreve > a:hover {
+    color: black;
+    font-weight: 800;
+}
 
 /*----------------------------------------pagina 4------------------------------------------------------*/
+/*------------------Minhas Habilidades----------------*/
+
+section#pagina04 {   
+    color: rgb(221, 235, 213);
+    background-attachment: fixed;
+    width: auto;  
+    height: 800px;
+    padding: 20px;
+    max-width: 1800px;
+
+}
+
+section.img04 {
+    background-image: url(../imagens/praia.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-attachment: no-scroll;
+}
+
+
+
+
+/*-------------------------------------------Footer----------------------------------*/
+
+
+
+
 
 footer {
     background-color: black;
